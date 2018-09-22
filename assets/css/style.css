@@ -59,7 +59,8 @@ ul li{
 a {
     text-decoration-line: none;
     color:  white;
-    font-size: 20px
+    font-size: 20px;
+    transition: .1s all ease;
 }
 
 a:hover {
@@ -168,7 +169,7 @@ img {
 label, input, textarea {
     text-align: left;
     margin: 10px 20px;
-    padding:10px 0px;
+    padding:10px 10px;
     width: 95%;
     font-family: 'Inconsolata', monospace;
     font-size: 15px;
@@ -196,20 +197,10 @@ button {
     height: 600px;
 }
 
-/* .card-set {
-    position: relative;
-    border: solid 1px black;
-    height: 400px;
-    width: 85%;
-    margin: 0 auto;
-    display: grid;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-} */
 .card-set {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
     padding: 10px;
     width: 85%;
     margin: 20px auto;
@@ -218,7 +209,6 @@ button {
 
 .card {
     border: solid 3px #f4c9be;
-
     transition: .5s all ease;
 }
 
@@ -229,52 +219,62 @@ button {
 
 #card-1 {
     background-image: url("../images/cactus.png"), url("../images/pink_rice.png");
-    background-size: 100% 100%, auto;
+    background-size: 75% 75%, auto;
+    background-position: center bottom;
     background-origin: content-box;
-
+    background-repeat: no-repeat;
 }
 
 #card-2 {
     background-image: url("../images/piata.png"), url("../images/pink_rice.png");
-     background-size: 100% 100%, auto;
+    background-size: 75% 75%, auto;
+    background-position: center bottom;
     background-origin: content-box;
+    background-repeat: no-repeat;
 
 }
 
 #card-3 {
     background-image: url("../images/skull-1.png"), url("../images/pink_rice.png");
-     background-size: 100% 100%, auto;
+    background-size: 65% 75%, auto;
+    background-position: center bottom;
     background-origin: content-box;
+    background-repeat: no-repeat;
 }
 
 #card-4 {
     background-image: url("../images/maracas-1.png"), url("../images/pink_rice.png");
-     background-size: 100% 100%, auto;
+    background-size: 65% 75%, auto;
+    background-position: center bottom;
     background-origin: content-box;
+    background-repeat: no-repeat;
 }
 
 #card-5 {
     background-image: url("../images/tequila.png"), url("../images/pink_rice.png");
-     background-size: 100% 100%, auto;
+    background-size: 65% 75%, auto;
+    background-position: center bottom;
     background-origin: content-box;
+    background-repeat: no-repeat;
 }
 
 #card-6 {
-    background-image: url("../images/pepper-1.png"), url("../images/pink_rice.png");
-     background-size: 100% 100%, auto;
+    background-image: url("../images/pyramid.png"), url("../images/pink_rice.png");
+    background-size: 80% 80%, auto;
+    background-position: center bottom;
     background-origin: content-box;
+    background-repeat: no-repeat;
 }
 
 .banner {
     text-align: center;
-    font-weight: 10px;
-    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 7px;
     color: white;
     font-family: 'Raleway', sans-serif;
     background: #c6e7e3;
-    width: 75%;
     height: 35px;
     margin: 0 auto;
-    visibility: hidden;
 }
 
