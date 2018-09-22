@@ -187,9 +187,25 @@ textarea {
     height: 100px;
 }
 
-button {
+.button {
     float: right;
     margin-right: 15px;
+    border-radius: 12px;
+    width: 150px;
+    height: 30px;
+    background-color: #b5ebe4;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.button:hover {
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+    transform: translateY(4px);
 }
 
 /* portfolio cards */
