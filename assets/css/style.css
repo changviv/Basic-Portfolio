@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  text-align: center;
 }
 
 
@@ -65,12 +64,10 @@ a {
 
 a:hover {
     font-size: 18px;
-    /* change this */
 }
 
 a:focus {
     color: white;
-    /* change this */
 }
 
 .nav-border {
@@ -105,8 +102,6 @@ a:focus {
     border-bottom: solid 1px #cccccc;
     font-family: 'Inconsolata', monospace;
     font-size: 45px;
-    /* text-shadow: 2px 2px rgb(105, 198, 111); */
-
 }
 
 img {
@@ -158,9 +153,36 @@ img {
     margin: 0 auto;
     text-align: center;
     color: white;
-    font-size:14px;
+    font-size:17px;
     font-family: 'Inconsolata', monospace;
 }
 
+/* contact form */
 
+.form-container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+label, input, textarea {
+    text-align: left;
+    margin: 10px 20px;
+    padding:10px 0px;
+    width: 95%;
+    font-family: 'Inconsolata', monospace;
+}
+
+label {
+    text-transform: uppercase;
+    width: 100%;
+}
+
+textarea {
+    height: 60px;
+}
+
+button {
+    float: right;
+    margin-right: 15px;
+}
