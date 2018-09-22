@@ -129,11 +129,12 @@ p {
 }
 
 .first-line {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .second-line {
     line-height: 25px;
+    padding-top: 10px;
 }
 
 img {
