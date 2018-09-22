@@ -87,7 +87,7 @@ a:focus {
     border: solid 1px #cccccc;
     background: white;
     clear: both;
-    height: 400px;
+    height: 500px;
     margin-top: 70px;
     margin-bottom: 100px;
 }
@@ -171,18 +171,110 @@ label, input, textarea {
     padding:10px 0px;
     width: 95%;
     font-family: 'Inconsolata', monospace;
+    font-size: 15px;
 }
 
 label {
     text-transform: uppercase;
     width: 100%;
+    color: #777777;
+    font-size: 20px;
 }
 
 textarea {
-    height: 60px;
+    height: 100px;
 }
 
 button {
     float: right;
     margin-right: 15px;
 }
+
+/* portfolio cards */
+
+#portfolio-content {
+    height: 600px;
+}
+
+/* .card-set {
+    position: relative;
+    border: solid 1px black;
+    height: 400px;
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+} */
+.card-set {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 85%;
+    margin: 20px auto;
+    height: 400px;
+}
+
+.card {
+    border: solid 3px #f4c9be;
+
+    transition: .5s all ease;
+}
+
+.card:hover {
+    opacity: 0.5;
+    transform: translateY(-8px);
+}
+
+#card-1 {
+    background-image: url("../images/cactus.png"), url("../images/pink_rice.png");
+    background-size: 100% 100%, auto;
+    background-origin: content-box;
+
+}
+
+#card-2 {
+    background-image: url("../images/piata.png"), url("../images/pink_rice.png");
+     background-size: 100% 100%, auto;
+    background-origin: content-box;
+
+}
+
+#card-3 {
+    background-image: url("../images/skull-1.png"), url("../images/pink_rice.png");
+     background-size: 100% 100%, auto;
+    background-origin: content-box;
+}
+
+#card-4 {
+    background-image: url("../images/maracas-1.png"), url("../images/pink_rice.png");
+     background-size: 100% 100%, auto;
+    background-origin: content-box;
+}
+
+#card-5 {
+    background-image: url("../images/tequila.png"), url("../images/pink_rice.png");
+     background-size: 100% 100%, auto;
+    background-origin: content-box;
+}
+
+#card-6 {
+    background-image: url("../images/pepper-1.png"), url("../images/pink_rice.png");
+     background-size: 100% 100%, auto;
+    background-origin: content-box;
+}
+
+.banner {
+    text-align: center;
+    font-weight: 10px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: #c6e7e3;
+    width: 75%;
+    height: 35px;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
